@@ -23,6 +23,8 @@ gem 'rolify', '~> 5.1'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 gem 'activeadmin', github: 'activeadmin'
+gem 'jquery-ui-rails'
+gem 'just-datetime-picker'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -17,7 +17,7 @@ ActiveAdmin.register User do
     f.inputs 'User Details' do
       f.input :name
       f.input :surname
-      f.input :birthday
+      f.input :birthday, start_year: 1900
       f.input :email
       f.input :password
       f.input :password_confirmation
